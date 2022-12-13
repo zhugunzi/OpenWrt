@@ -385,10 +385,10 @@ jobs:
       uses: unifreq/openwrt_packit@master
       env:
         OPENWRT_ARMVIRT: openwrt-armvirt/*rootfs.tar.gz
-        PACKAGE_SOC: h68k
+        PACKAGE_SOC: rk3568-h68k
         WHOAMI: Haiibo
         KERNEL_REPO_URL: https://github.com/ophub/kernel/tree/main/pub/stable
-        KERNEL_VERSION_NAME: 5.15.82
+        KERNEL_VERSION_NAME: 5.10
         KERNEL_AUTO_LATEST: true
         DISTRIB_REVISION: R${{ env.DATE1 }} by Haiibo
 
